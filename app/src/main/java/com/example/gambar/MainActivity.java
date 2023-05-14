@@ -78,7 +78,7 @@ public class MainActivity extends AppCompatActivity {
             }
             else {
 //                mPaint.setColor(mColorAccent);
-                mPaint.setColor(mColorAccent - MULTIPLER * mOffset);
+//                mPaint.setColor(mColorAccent - MULTIPLER * mOffset);
                 mCanvas.drawCircle(halfWidth, halfHeight, halfWidth / 3, mPaint);
                 mOffset += OFFSET;
 
@@ -104,7 +104,7 @@ public class MainActivity extends AppCompatActivity {
 
                 String text = getString(R.string.done);
 
-                // Get bounding box for text to calculate where to draw it.
+                 //Get bounding box for text to calculate where to draw it.
                 mPaintText.getTextBounds(text, 0, text.length(), mBounds);
 
                 // Calculate x and y for text so it's centered.

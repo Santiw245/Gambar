@@ -11,4 +11,9 @@
     <color name="colorRetangle">#455A64</color>
     <color name="colorBackground">#FF37</color>
     <color name="colorAccent">#FF6200EE</color>
+
+    <color name="bg">#DAF5FF</color>
+    <color name="kelopak_1">#F2789F</color>
+    <color name="kelopak_2">#F9C5D5</color>
+    <color name="tengah">#FFD95A</color>
 </resources>
